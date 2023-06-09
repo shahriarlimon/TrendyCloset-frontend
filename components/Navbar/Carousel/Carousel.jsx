@@ -55,7 +55,6 @@ const Carousel = () => {
     return (
         <div ref={slideRef} className="w-full select-none relative overflow-hidden">
             <div className='bg-red-200'>
-                
                 <div className={`aspect-w-16 aspect-h-9 flex items-center justify-end`}>
                     <img className='object-cover mt-16' src={featuredProducts[currentIndex]} alt="" />
                 </div>

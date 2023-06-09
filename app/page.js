@@ -1,3 +1,4 @@
+import FeaturedProducts from '@/components/FeaturedProducts/FeaturedProducts'
 import CarouselSlide from '@/components/Navbar/Carousel/Carousel'
 import Navbar from '@/components/Navbar/Navbar'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="">
       <Navbar />
       <CarouselSlide />
+      <FeaturedProducts />
 
     </main>
   )
