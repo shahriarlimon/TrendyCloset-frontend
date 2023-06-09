@@ -4,8 +4,8 @@ import ProductCard from '../utils/ProductCard'
 
 const LatestProducts = () => {
     return (
-        <div className='mt-12 h-screen'>
-            <h2 className='text-3xl font-bold text-center'>Featured Products</h2>
+        <div className='mt-12'>
+            <h2 className='text-3xl font-bold text-center'>Latest Products</h2>
             <p className='text-center tracking-wider text-gray-700 mt-1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere earum eius dolor, quas aliquid sequi.</p>
             <div className='flex items-center justify-center mt-5'>
                 <div class="max-w-screen-md mx-auto">
