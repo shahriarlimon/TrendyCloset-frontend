@@ -40,7 +40,7 @@ const Navbar = ({ activeHeading = 1 }) => {
                             </div>
                             <div className='flex items-center justify-center ml-5 space-x-4 text-[14px] font-[600] uppercase'>
                                 {
-                                    navItems && navItems.map((item, index) => (<Link className={`${activeHeading === index + 1 ? "text-[#f364ec]  border-b-3 border-b-[#f364ec]" : "text-black"} cursor-pointer tracking-wider`} key={index} href={item?.url}>{item?.title}</Link>))
+                                    navItems && navItems.map((item, index) => (<Link className={`${activeHeading === index + 1 ? "text-pink-600  border-b-3 border-b-pink-700" : "text-black"} cursor-pointer tracking-wider`} key={index} href={item?.url}>{item?.title}</Link>))
                                 }
                             </div>
                         </div>
