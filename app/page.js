@@ -1,3 +1,4 @@
+import FeaturedProductHero from '@/components/FeaturedProductHero/FeaturedProductHero'
 import FeaturedProducts from '@/components/FeaturedProducts/FeaturedProducts'
 import LatestProducts from '@/components/LatestProducts/LatestProducts'
 import CarouselSlide from '@/components/Navbar/Carousel/Carousel'
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedProducts />
       <LatestProducts />
       <Offer />
+      <FeaturedProductHero />
 
     </main>
   )
