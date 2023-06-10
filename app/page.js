@@ -4,6 +4,7 @@ import LatestProducts from '@/components/LatestProducts/LatestProducts'
 import CarouselSlide from '@/components/Navbar/Carousel/Carousel'
 import Navbar from '@/components/Navbar/Navbar'
 import Offer from '@/components/Offer/Offer'
+import ShopByBrands from '@/components/ShopByBrands/ShopByBrands'
 import Image from 'next/image'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <LatestProducts />
       <Offer />
       <FeaturedProductHero />
+      <ShopByBrands />
 
     </main>
   )
